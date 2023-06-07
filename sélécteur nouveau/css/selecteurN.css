@@ -1,0 +1,54 @@
+h1{
+    background-color:rgb(1, 5, 5) ;
+    color: white;
+}
+/* on a selectoner toutes les balises <p> a linterieur de la balise <section> */
+section p{
+    color: red;
+}
+/* premier <p> */
+section p:first-child{
+    color: blue;
+}
+/* le dernier <p> */
+section p:last-child{
+    color: green;
+}
+/* les <p> paire */
+section p:nth-child(even){
+    color: lightblue;
+}
+/*  les <p> impaire */
+section p:nth-child(odd){
+    color: brown;
+}
+section p:nth-child(3), section p:nth-child(10){
+    color: orange;
+}
+.zone1{
+    color: red;
+}
+.zone2{
+    color: blue;
+}
+.chow{
+    color: lime;
+}
+#zone3{
+    background-color: burlywood;
+}
+#zone3::after{
+   content: "rajouter après";
+
+}
+/* Dans cette exemple on vien de changer la (class= "zone2") qu'on a creé dans le fichier HTML en violet */
+
+#zone3::before{
+
+   content: "rajouter avant";
+ background-color: cyan;
+}
+ul li:nth-child(2){
+    background-color: brown;
+    color:wheat
+}

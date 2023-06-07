@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <form action="mapage.php" method="get"> 
+        <!-- je declare mon formulaire avec la balise form -->
+        <label for="pseudo"> PseudoNayle </label>
+        <input type="text" id="pseudo" name="pseudo" 
+    placeholder="pseudo_exemple">
+     <!-- le type précise le type de donnée à recupérer (text)
+         name sera utilisé en php pour recupérer les donnée 
+         le placement contient le text qui apparaitre dans l'input, 
+         required : champs obligatoire -->
+         <br>
+         <!-- mot de passe -->
+         <label for="mdp"> Mot de passe </label> 
+         <input type="password" name="mdp" placeholder="mot de passe" required>
+         <br>
+         <!-- mail -->
+         <label for="email"> Email </label>
+         <input type="email" name="email" placeholder="email">
+         <br> <br>
+         <label for="photo"> photo </label>
+         <input type="file" name="photo"> 
+         <fieldset>
+            <legend> Choix multiple </legend>
+
+         <!-- case a cocher chechbox -->
+         <!-- plusieur choix -->
+         <label for="choix_miltiple">quel destination choisosez-vous?
+         </label> <br>
+         
+         <input type="checkbox" name="pays" value="colombie">
+         <label for="colombie"> colombie </label> <br>
+         <input type="checkbox" name="pays" value="algerie">
+         <label for="algerie"> algerie </label> <br>
+         <input type="checkbox" name="pays" value="espagne">
+         <label for="espagne"> espagne </label> 
+          <br>
+         <!-- un seul choix -->
+         <label for="un_choix"> qui seront vos accompagnateurs? </label> 
+         <br>
+        
+        <input type="radio" name="accompagnateur" value="reponre1">
+        <label for="iltali"> en famille </label> <br>
+        <input type="radio" name="accompagnateur" value="reponse2">
+        <label for="algerie"> tous seul </label> <br>
+        <input type="radio" name="accompagnateur" value="reponse3">
+        <label for="espagne"> avec un amis </label> <br>
+        <label for="selection">Avion préferer</label>
+        <select name="avion" id="avion">
+           <optgroup label="trop chére 10000001£">
+
+            <option value="airalgerie" selected > Air algerie</option>
+            <option value="quatarairways">quatar Air ways</option>
+        </optgroup>
+        <optgroup label="pas chére a partire de 10$">
+            <option value="transavia">transavia</option>
+        </optgroup>
+        </select>
+    </fieldset>
+    <!-- zone de texte  -->
+     <label for="commentaire">Commentaire</label>
+
+     <textarea name="commentaire" id="commentaire" cols="20" rows="10"></textarea>
+     <!-- rows = nombre de ligne , cols = nombre de colones/waractére -->
+     <!-- bouton d'envoi -->
+     <!-- valider -->
+     <input type="submit" name="inscription" value="valider">
+     <!-- annuler -->
+     <input type="reset" name="annuler" value="annuler">
+     <!-- entre les deux valider et annuler-->
+     
+    </form>
+</body>
+</html>

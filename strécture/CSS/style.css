@@ -1,0 +1,12 @@
+p,h1 {
+    color: blue;
+}
+.bienvenue {
+    color: aqua;
+}
+/* attention les commantaires en css ne se font pas de la méme maniere que htlm */
+/* ne pas oublier de tester le fichier style */
+selecteur {
+    propriété: valeur;
+    /*  le point vergule est obligatoire pour ne pas avoir d'ereurs */
+}

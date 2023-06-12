@@ -1,0 +1,28 @@
+body{
+    color: white;
+    margin: auto;
+    background-size: cover;
+    background-color: antiquewhite;
+}
+.boite{
+    height: 10em;
+    width: 10em;
+    padding: 3vh;
+    margin: 0.2em;
+    border: 5px solid rgb(0, 0, 0) ;
+    border-radius: 30px;
+    background-position: left ;
+    float:left ; 
+  }
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(26, 255, 0);
+   
+}
+.violler{
+    background-color: blueviolet;
+}
+.clear{
+    clear: left;
+}

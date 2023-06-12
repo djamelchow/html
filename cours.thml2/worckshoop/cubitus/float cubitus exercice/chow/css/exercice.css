@@ -1,0 +1,45 @@
+body{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    background-size: cover;
+    /* background-color: rgb(0, 0, 0); */
+   background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p3/1829076-fond-de-vecteur-bleu-fonce-avec-style-polygonal-vectoriel.jpg);
+}
+.boite{
+    height: 20vh;
+    width: 20vh;
+    padding: 3vh;
+    border: 5px solid rgb(0, 0, 0) ;
+    border-radius: 10% 30% 30% 30%;
+    background-position: left ;
+    float:left ; 
+  }
+div{
+    width: 30%;
+    margin: 0 auto;
+    background-color: rgb(1, 89, 17);
+   
+}
+.bleuciel{
+    background-color: aqua;
+    border-radius: 25% 10%;
+}
+.bleuclére{
+    background-color: rgb(151, 242, 212);
+    border-radius: 50% 50% / 50% 50%;
+}
+.rosecrevet{
+    background-color: darksalmon;
+    border-radius: 10% 25%;
+}
+.rouge{
+    background-color: darkred;
+    border-radius: 10% 25%;
+}
+.blanc{
+    opacity: 0;
+ 
+}
+.clear{
+    clear: left;
+}

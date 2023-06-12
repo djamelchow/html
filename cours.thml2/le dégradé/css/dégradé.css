@@ -1,0 +1,11 @@
+.contenu ,div{
+   height: 45em;
+   width: 45em;
+   margin: auto;
+   background: linear-gradient(to left , #40a197, #6840a4);
+   border-radius: 50%;
+}
+
+
+
+  

@@ -1,0 +1,16 @@
+.block{
+    display: block;
+    
+}
+.inline{
+    display: inline;
+   
+}
+h1,h2,div,a,p,span,section{
+    text-align: center;
+    border: 0.1px solid rgb(0, 0, 0);
+    background-color: aquamarine;
+}
+.k{
+    color: brown;
+}

@@ -1,0 +1,40 @@
+body{
+    color: rgb(255, 255, 255);
+
+    background-image: url(https://fr.reformsports.com/oachoata/2022/07/terrain-de-basket.jpeg);
+background-size: cover;
+margin: 0 auto; 
+background-color: rgb(234, 255, 0);
+background-size: cover;
+}
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color : rgb(60, 0, 67) ;
+}
+
+p{
+    display: inline;
+}
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background-image: url(/ballon.jpg);
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    float: left ; 
+    /* effect flottant , permet de placer des balises cote a cote alors que selon le flux de web strandard les élement se placent les uns au dessus des autres */
+    border: 5px solid orchid; 
+    /* taille, style couleur : de la bordur */
+    margin: 2vh;
+    
+}
+.clear{
+    clear: both;
+    /*  */
+}
+.boite:hover{
+    margin-top: 10vh;
+}

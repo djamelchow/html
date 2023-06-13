@@ -1,0 +1,52 @@
+body{
+    width: 960px;
+    margin: 0;
+}
+.bloc{
+    display:; 
+    /* pour sur la ligne cote a cote */
+    justify-content: center;
+    /* déplaser le bloc gauche a droite ou milieux */
+    flex-direction: row;
+    /* row-reverse pour inverser */
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 5px ;
+}
+.vert, .bleuciel ,.bleuclére ,.rosecrevet,.rouge ,.blanc{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0) ;
+    text-align: center;
+}
+
+.vert{
+    background-color: green;
+    border-radius : 10% 30% 50% 70%;
+
+}
+.bleuciel{
+    background-color: aqua;
+    border-radius: 25% 10%;
+}
+.bleuclére{
+    background-color: rgb(151, 242, 212);
+    border-radius: 50% 50% / 50% 50%;
+}
+.rosecrevet{
+    background-color: darksalmon;
+    border-radius: 10% 25%;
+}
+.rouge{
+    background-color: darkred;
+    border-radius: 10% 25%;
+}
+.blanc{
+    opacity: 0;
+ 
+}
+
+
+
+
+

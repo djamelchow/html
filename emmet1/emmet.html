@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/emmet.css">
+</head>
+<body>
+    <header>
+        <h1>
+            coder avec emmet
+        </h1>
+    </header>
+    <nav>
+       <a href="html">HTML</a>
+       <a href="css">CSS</a>
+    </nav>
+    <h2 id="html">HTML</h2>
+     <!-- div>h3+code*2+p  -->
+     <div>
+        <h3>ajouter un élement enfant : ">" </h3>
+        <code>li>p</code>
+        <code>ul>li>p</code>
+        <p>résultat</p>
+     </div>
+     <!--  div>h3+code+p{resultat :} -->
+         <div>
+            <h3>ajoutet un frére: "+"</h3>
+            <code>ul>li>p+a</code>
+            <p>resultat:</p>
+         </div>
+         <div>
+            <h3>multiplier un élement :"*"</h3>
+            <code>ul>li*3>p</code>
+            <p>resultat :</p>
+         </div>
+         <div>
+            <h3>ajouter une class</h3>
+            <code>ul.whit</code>
+            <p>resultat :</p>
+         </div>
+         <div>
+            <!-- <ul class="whit"></ul> -->
+            <h3>Grouper les élement</h3>
+            <code>ul>(header>ul>li*2>a)+footer>p</code>
+            <br>
+            <code>ul>(li>p+img+a)+li*2>p>img</code>
+            <p>resultat :</p>
+         </div>
+         <!-- code 1
+             <ul>
+            <header>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </header>
+            <footer>
+                <p></p>
+            </footer>
+         </ul> -->
+         <!-- ......................... -->
+         <!-- code2 
+        <ul>
+            <li>
+                <p></p>
+                <img src="" alt="">
+                <a href=""></a>
+            </li>
+            <li>
+                <p><img src="" alt=""></p>
+            </li>
+            <li>
+                <p><img src="" alt=""></p>
+            </li>
+        </ul>
+        -->
+        <div>
+            <h3>inserer du text dans un élément: "{}"</h3>
+            <code>a{clec ici}</code>
+            <code>p>{clic }+a{here}+{to continu}</code>
+            <p>resultat:</p>
+        </div>
+        <!--code1- <a href="http://bitly.ws/IxPk">clic ici</a> -->
+        <p>clic <a href="http://bitly.ws/IxPk">here</a>to the continue</p>
+        <div>
+            <h3>ajouter une numération: "$"</h3>
+            <code>ul>li.item$*5{zone$}</code>
+            <p>resultat:</p>
+        </div>
+        <!-- <ul>
+            <li class="item1">zone1</li>
+            <li class="item2">zone2</li>
+            <li class="item3">zone3</li>
+            <li class="item4">zone4</li>
+            <li class="item5">zone5</li>
+        </ul> -->
+        <div>
+            <h3>ajouter le id avec le #"</h3>
+            <code>ul>li#item</code>
+            <p>resultat:</p>
+            <!-- <ul>
+                <li id="item"></li>
+            </ul> -->
+        </div>
+        <div>
+            <h3>commencer la numération au chiffre coulu : "$@x"</h3>
+            <code>ul>li.item$@3*5</code>
+            <p>resultat:</p>
+        </div>
+        <!-- ul>li.item$@3*5{zone$@3}
+        <ul>
+            <li class="item3">zone3</li>
+            <li class="item4">zone4</li>
+            <li class="item5">zone5</li>
+            <li class="item6">zone6</li>
+            <li class="item7">zone7</li>
+        </ul> -->
+        <div>
+            <h3>némeroter dans lordre decroisant (inverssé): "$@-"</h3>
+            <code>ul>li.item$@-*5</code>
+            <p>resultat:</p>
+        </div>
+        <!-- ul>li.item$@-*5{zone$@-}
+        <ul>
+            <li class="item5">zone5</li>
+            <li class="item4">zone4</li>
+            <li class="item3">zone3</li>
+            <li class="item2">zone2</li>
+            <li class="item1">zone1</li>
+        </ul> -->
+        <div>
+            <h3>rementer d'un élement enfant: "^"</h3>
+            <code>div>p>em{hello}^a</code>
+            <!-- <code>div>(p>em{hello})a</code> -->
+            <p>resultat:</p>
+        </div>
+        <!-- <div>
+            <p><em>hello</em></p>
+            <a href=""></a>
+        </div> -->
+        <div>
+            <h3>ajouter un attribut:[nom:valeur]</h3>
+            <code>img[src="http://bitly.ws/IxPk"alt="clip"]</code>
+            <p>résultat</p>
+        </div>
+        <!-- <img src="http://bitly.ws/IxPk" alt="clip"> -->
+        <div>
+        <h3>En bref</h3>
+        <code>div.list>ul>(li.item$>p{parapgraph $}+img[src="http://placecage.com/300/300"])+li.item$@2*4>p{paragraph $@2}+img[src="http://placesheen.com/$@1$$/$@5$$"]+a^^^footer>p{Place cage vrs placesheen}</code>
+        <p>résultat</p>
+    </div>
+
+    <!-- <div class="list">
+        <ul>
+            <li class="item1">
+                <p>parapgraph 1</p>
+                <img src="http://placecage.com/300/300" alt="">
+            </li>
+            <li class="item2">
+                <p>paragraph 2</p>
+                <img src="http://placesheen.com/101/501" alt=""><a href=""></a></li>
+            <li class="item3">
+                <p>paragraph 3</p>
+                <img src="http://placesheen.com/202/602" alt=""><a href=""></a></li>
+            <li class="item4">
+                <p>paragraph 4</p>
+                <img src="http://placesheen.com/303/703" alt=""><a href=""></a></li>
+            <li class="item5">
+                <p>paragraph 5</p>
+                <img src="http://placesheen.com/404/804" alt=""><a href=""></a></li>
+        </ul>
+<footer>
+    <p>Place cage vrs placesheen<p>
+    </footer> -->
+        
+    </div>
+    <div>
+        <p>le premier regroupement contient un &lt;li> qui a deaux enfant s : &lt;> qui contiennent du text et une &lcy;img qui a un attribut sec .
+        </p>
+        <p>
+            le regroupement suivant contient les &lt;li>2 a 5 , en multioliant des listes dont les noms de classe , contenu de paragraphe et valeur d'attributs s'incrémentent selon des syntaxe différentes . chaque &lt;li> contient aussi une ancre invariable.
+        </p>
+        enfin les 3 ^^^ permetent de remonter les élement parents pour les placer le footer au méme niveau que la div
+    </div>
+
+    </body>
+</head>
+
+            

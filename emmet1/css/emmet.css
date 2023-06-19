@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    background-image: url(http://bitly.ws/IzhF);
+    background-size: cover;
+}
+h1{text-align: center;
+background-color: black;
+color: whitesmoke;}
+nav{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+nav a {
+    font-size: 1.3em;
+    font-weight: 700px;
+    padding: 1em 2em;
+    color: green;
+}
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 0, 0);
+}
+code{ font-size: 1.5vw;
+font-style: italic;
+background-color: rgb(255, 255, 255);
+
+}
+
+div{
+
+
+    text-align: center;
+    background-color:white;
+    color: black;
+}
+
+

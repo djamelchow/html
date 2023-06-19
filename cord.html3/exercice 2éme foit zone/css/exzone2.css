@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin:0% auto;
+    border: 3px solid black;
+    width: 1900px;
+    height: auto ;
+   font-size: large;
+    text-align: center;
+    font-family: montserrat, Helvetica, sans-serif;
+
+
+}
+*{
+    text-align: center;
+}
+header{
+    background-color: rgb(255, 154, 154);
+    text-align: center;
+    height: 2cm;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif ;
+}
+nav{
+
+
+background-color: rgb(39, 90, 23);
+text-align: left;
+height: 1cm;
+width: 100%;
+color: rgb(255, 255, 255);
+font-family: Arial;
+}
+
+section{
+border: 15px solid rgb(255, 255, 255);
+height: 900px;
+width: auto;
+display: flex;
+flex-wrap:wrap;
+margin: 20px;
+
+}
+
+footer{
+background-color: rgb(42, 155, 165);
+text-align: center;
+height: 2cm;
+width: 100%;
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 0;
+    
+}
+.top1{
+height: 50%;
+width: 50%;
+display:flex ;
+flex-wrap: wrap;
+background-color: rgb(236, 102, 248);
+margin: auto;
+}
+.top2{
+ height: 50%;
+ width: 50%;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: rgb(7, 61, 105);
+ margin: auto;
+
+}
+.top3{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(41, 41, 32);
+    margin: auto;
+   }
+.top4{
+    height: 50%;
+    width: 50%;
+    display:flex ;
+    flex-wrap: wrap;
+    background-color: rgb(203, 238, 0);
+    
+    }
+.box{
+    border: 1px solid rgb(255, 255, 255);
+    width: 49.5%;
+    height: 49.5%;
+    display: flex;
+    margin:auto;
+}
+img{
+    width: auto;
+    height: 250PX;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto ;
+    padding: 100px 20px 0;
+  
+}
+p{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: black;
+    font-size: 0px;
+}
+p span{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    font-size: clamp(20px, 8vw, 100px);
+}
+p span::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+}
+p:nth-child(1){
+    font-weight: 300;
+    animation: txt-appeatance 0s 1s forwards ;
+}
+p:nth-child(2){
+
+    animation: txt-appeatance 0s 1.25s forwards ;
+}
+p:nth-child(1) span::after{
+    background: rgb(245, 250, 114);
+    animation: slide-in 0.75s, ease-out forwards , slide-out 0.75s 1s ease-out forwards;
+}
+p:nth-child(2) span::after{
+    background: rgb(0, 0, 0);
+    animation: slide-in 0.5s 0.5s, ease-out forwards , slide-out 0.75s 1.50s ease-out forwards;
+}
+@keyframes slide-in {
+    100%{
+        transform: translate(0%);
+    }
+}
+@keyframes slide-out {
+    100%{
+        transform: translateX(100%) ;
+    }
+}
+@keyframes txt-appearance {
+    100%{
+ color: red;
+    }
+}
+img:nth-child(1) span::after{
+    background: rgb(0, 0, 0);
+    animation: slide-in 0.5s 0.5s, ease-out forwards , slide-out 0.75s 1.50s ease-out forwards;
+
+    text-align: center;
+}

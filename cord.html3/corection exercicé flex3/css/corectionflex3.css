@@ -1,0 +1,46 @@
+.conteneur{
+    width : 800px ;
+    height : 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+ 
+}
+
+header{
+   width: 800px ;
+    height: 70px;
+    background-color: #fd0000;
+}
+.gauche ,.droite{
+    width: 150px;
+    height: 530px;
+    background-color: #0047fb;
+    line-height: 530px;
+}
+.milieu{
+    background-color: #00ff4c;
+    width: 500px;
+    height: 450px;
+    line-height: 530px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.z_milieu{
+    border: 1px solid;
+    height: 448px;
+    width: 97px;
+
+}
+.bas{
+    background-color: rgb(255, 255, 0);
+    height:80px ;
+    width:500px ;
+    position: relative;
+    left: 150px;
+    bottom: 80px;
+/* z-index */
+/* z-index etulise pour positioner les élément   */
+}

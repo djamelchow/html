@@ -1,0 +1,28 @@
+body{
+    height:auto ;
+    width: 100%;
+  
+}
+header{
+    background-color: rgb(226, 123, 214);
+    height: 110px;
+    width: 100%;
+}
+section{
+height: 2000px;
+
+}
+footer{
+    background-color: rgb(226, 123, 214);
+    height: 110px;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+    font-family: fantasy;
+
+    }
+ 
+.img{
+    height: 45px;
+    width: 50px;
+}

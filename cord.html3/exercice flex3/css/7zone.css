@@ -1,0 +1,61 @@
+body{
+    border: 2px solid;
+     margin: auto;
+     width:1222px ;
+     height: 1131px ;
+ }
+ p{
+     margin: 0;
+ }
+ section{
+     border: 2px solid rgb(255, 255, 255);
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     text-align: center;
+     font-family: 'Gill Sans', sans-serif;
+ }
+ header{
+ background-color: rgb(255, 7, 7);
+ text-align: center;
+ height: 2cm;
+ width: 100%;
+ color: rgb(0, 0, 0)
+ }
+ .zg{
+    background-color: blue;
+     border: 2px solid rgb(0, 0, 0);
+     height: 1051px;
+     width: 209px;
+ 
+ 
+ }
+ .zd{
+    background-color: blue;
+     border: 2px solid rgb(0, 0, 0);
+     height: 1051px;
+     width: 209px;
+ }
+ .zv{
+    background-color: green;
+    border: 1px solid rgb(0, 0, 0);
+    height: 881px;
+    width: 792px;
+    display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+.zonevert{
+    border: 1px solid;
+    height:auto;
+ width:155.4px ;
+ }
+ .zb{
+    background-color: yellow;
+    border: 1px solid black ;
+    height:171px ;
+    width: 792px ;
+    position: relative;
+    top: -171px;
+    left: 212px;
+ }

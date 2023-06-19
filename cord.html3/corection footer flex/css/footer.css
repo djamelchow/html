@@ -1,0 +1,75 @@
+*{
+    font-family: sans-serif;
+    /* police d'écréture */
+}
+h3{
+    text-shadow: 1px 1px 2px rgb(250, 45, 79);
+}
+nav{
+    background: #000;
+    color: #ffff ;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+nav a{
+    float: left;
+    text-decoration: none; 
+/* pas d'héritage avec l'effect soulignier comme c'est standard pour tous les liens sous  tous les navigateurs */
+color: #ffff; 
+/* couleur du text */
+background-color: #0000;
+height: 2.8em ;
+/* hauteur de la nav */
+line-height: 2.7em ;
+/* interligne */
+padding: 0em 2em;
+/* marge interieur - on les mai dans le sens des aiguille d'une mtre par conventio, (hau, droite , gauche , bas) */
+font-size: 1.2em;
+/* taille du text */
+transition: 2s;
+/* temps de transition lors du hover (suvol de la sourie):ici2 seconde */
+}
+nav a:hover{ 
+/* sélection de tous tous les liens au survol de la souris dnas la nav */
+background-color: yellow;
+color: black;
+}
+.contenaire{
+    border: 1px solid  rgb(231, 248, 146);
+    width: 70%;
+    margin: 4% auto 2% auto;
+    background-color: rgb(204, 143, 143);
+    padding: 2rem; 
+}
+mark{
+    background-color: rgb(204, 143, 143);
+}
+/* 2em conteneur */
+.contenaire1{
+    display: flex;
+    height: 1000px;
+    width: 70%;
+    margin: 2% auto;
+    background-color: rgb(204, 143, 143);
+    padding: 2%;
+  
+}
+.contenaire2, .contenaire3{
+  
+    border: 10px solid rgb(204, 143, 143);
+    width: 44.5%;
+    background-color: #b5cc8d;
+    padding: 2%;
+    float: left;
+}
+.contenaire4{
+    text-align: left;
+    width: max-content;
+    height: max-content;
+
+}

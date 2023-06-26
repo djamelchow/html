@@ -1,0 +1,29 @@
+main{
+    background-color: #29347B; ;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 2vh auto;
+    padding: 1% 0;
+    font-family: 'Shadows Into Light', cursive ;
+}
+h1{
+    font-size: 4em;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+figure{
+    width: 25%;
+    margin: 1vh 2vw;
+
+}
+figcaption{
+    font-size: 1.5em;
+}
+img{
+    width: 200px;
+}
+

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/workshop-voyages-apprenants/workshop-voyages-apprenants/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "voyage"
+	}
+}

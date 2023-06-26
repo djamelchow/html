@@ -1,0 +1,64 @@
+
+body{
+
+    margin: auto;
+    padding-top: 10px;
+    border: 8px solid white;
+    /* pour centrer limage au milieux */
+    width: 900px;
+    font-family: 'Shadows Into Light', cursive ;
+    /* la police du texte */
+
+   
+    
+
+
+
+   
+}
+
+
+section{
+    border:1px solid #29347B;
+    height: 780px;
+    margin: auto;
+    display: flex;
+    /* pour metre les photo en horizontal */
+    flex-wrap: wrap;
+    /* pour que sa soute limage a la prochaine ligne a la taile de la largeure */
+    background-color: #29347B;
+    /* couleur du fond */
+    justify-content: center;
+    
+}
+h1{
+    width: 900px;
+    margin: auto;
+   color: white;
+   /* la couleur du texte */
+    text-align: center;
+ /* pour cetrer le titre */
+    background-color: #29347B;
+    letter-spacing: 0.2rem;
+    /* pour l'écpace  du texte */
+    font-size: 3.2em;
+     /* la taile de la police du texte */
+}
+img{
+    /* pour acgrandire la taille des photo */
+   height:165px;
+   width: 180px;
+   /* la taile des photos */
+
+}
+figcaption{
+    margin: auto;
+    text-align: center;
+    /* pour centrer le texte  */
+    font-family: 'Shadows Into Light', cursive ;
+    color: white;
+}
+
+
+
+

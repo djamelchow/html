@@ -1,0 +1,100 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+body{
+    
+    animation: mainscreen 3s linear infinite alternate;
+    -webkit-animation: mainscreen 3s linear infinite alternate;
+   margin: auto;
+border: 1px solid rgb(255, 255, 255);
+width: 970px;
+ 
+
+}
+.haut{
+    height: 30px;
+    background-color: chocolate;
+   
+
+}
+.menu{
+    height: 30px;
+    background-color: cornsilk;
+}
+.conteneur{
+    padding: 1px;
+    margin: 2.1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+ 
+}
+.a{
+    background-color: red;
+
+    width: 450px;
+   height: 240px;
+}
+.b{
+   background-color: blue;
+   
+    width: 450px;
+   height: 240px;
+}
+   
+
+.c{
+    background-color: chartreuse;
+ 
+    width: 450px;
+   height: 240px;
+}
+
+.d{
+background-color: indianred ;
+ 
+    width: 450px;
+   height: 240px;
+}
+  
+footer{
+background-color: aqua;
+    border: 1px solid transparent;
+    height: 50px;
+}
+
+@-webkit-keyframes mainscreen {
+    0%   {background-color: #00F900} //green
+    12.5%  {background-color:red} //blue
+    25%  {background-color: #993399} //purple
+    37.5%  {background-color: #FF85E0} //pink
+    50% {background-color: #F9E600} //yellow
+    62.5% {background-color: #FF9900} //orange
+    75% {background-color: #FF1919} //red
+    87.5% {background-color:black} //white
+    100% {background-color: #000000}
+}
+
+@keyframes mainscreen {
+    0%   {background-color: #356835} //green
+    12.5%  {background-color: #3363FF} //blue
+    25%  {background-color: #993399} //purple
+    37.5%  {background-color: #FF85E0} //pink
+    50% {background-color: #F9E600} //yellow
+    62.5% {background-color: #FF9900} //orange
+    75% {background-color: #FF1919} //red
+    87.5% {background-color:black} //white
+    100% {background-color: #000000}
+}
+
+#vid{
+    z-index: -1;
+    position: fixed;
+    position: absolute;
+    top :2.3%;
+    width: 970px;
+
+   
+}

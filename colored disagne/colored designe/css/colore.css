@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(194, 255, 133);
+
+}
+.img1{
+    position: relative;
+    left:0% ;
+    
+}
+.img2{
+position: relative;
+ top: -175px;
+ right: -83px;
+
+}
+.img3{
+    position: relative;
+    top: 34px;
+}
+header{
+    margin: auto;
+}
+div{
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    width: 800px;
+    margin: auto;
+}
+h1{
+  margin: auto;
+}
+nav{
+    box-shadow:3px solid, #000000;
+    position: relative;
+    background: linear-gradient(rgb(30, 255, 0), rgb(174, 174, 174));
+    color: #ffffff ;
+    padding: 0 0.5em;
+    text-align: center;
+    margin: 0 auto;
+    height: 20px;
+    word-spacing: 30px;
+
+   
+  
+}
+.chow{
+    height: fit-content;
+    width: 600px;
+    position: relative;
+    left: 43px;
+    top: -409px;
+}
+h2 ,h3{
+    border-bottom:0.5px solid #88e10b;
+    border-left: 0.5px solid #88e10b;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+    border-right: 1px solid white ;
+    padding-right:10px ;
+  
+}
+span{
+   color: white;
+}

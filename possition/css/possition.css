@@ -1,0 +1,75 @@
+body{
+    height: 2500px;
+}
+.rouge{
+    width: 100px;
+    height: 100px;
+    background-color: red; 
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+.bleu{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0; ; top:-100px ;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0px;
+}
+.vert{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    background-color: rgb(5, 146, 26);
+    position: fixed;
+    top: 864px;
+}
+.jaune{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 870px;
+    background-color: rgb(211, 226, 43);
+}
+.triangle{
+width: 0;
+height: 0%;
+border-left:80px solid transparent;
+border-right: 80px solid transparent;
+border-top:122px solid rgb(237, 100, 223);
+position: relative;
+left: 880px;
+top: 50px;
+position: fixed;
+    top: 150px;
+z-index:2 ;
+position: sticky;top: 5px;
+
+}
+.rond{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    box-shadow: 1px 0px 10px 2px black;
+    position: absolute;
+    left: 912px; top: 500px;
+    z-index: 1;
+    
+}
+.rond2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(118, 122, 122);
+    border-radius: 50%;
+    box-shadow: 1px 0px 10px 2px black;
+    position: absolute;
+    left: 912px; top: 490px;
+    z-index: 0;
+}

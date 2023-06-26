@@ -1,0 +1,16 @@
+body{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(213, 211, 211);
+}
+.btn-primary{
+    background-color: rgb(255, 55, 0);
+}
+.bg.light{
+    background-color: tomato !important
+    ;
+    color: rgb(183, 28, 0);
+}
+.card-link{
+    color:rgb(183, 28, 0); ;
+}

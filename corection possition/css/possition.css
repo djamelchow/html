@@ -1,0 +1,68 @@
+body{
+    height: 2200px;
+}
+.carre{
+    height: 100px;
+    width: 100px;
+}
+.carre:first-of-type{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.carre:nth-last-of-type(2){
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.carre:nth-last-of-type(4){
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.carre:nth-of-type(5){
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.rond{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-image: url(http://bitly.ws/JaEf);
+    background-size: cover;
+    position: absolute;
+    top: calc(40% - 40px);
+    left: calc(50% - 40px);
+     z-index: 1;
+
+
+}
+.ombre{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: gray;
+    position: relative;
+    top: calc(4% - 40px);
+    left: calc(50% - 40px);
+}
+.conteneur{
+    height: 100%;
+    margin: 80px;
+}
+.triangle{
+    height: 0;
+    width: 0;
+    border-top:solid 200px rgb(231, 61, 95);
+    border-right: 100px solid transparent ;
+    border-left: 100px solid transparent;
+    position: sticky;
+    top: 0;
+    left: calc(50% - 94px);
+    z-index: 2;
+}
